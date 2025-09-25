@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lana Del Rey — Site Simples</title>
+  <style>
+    :root{ --bg:#0f1724; --card:#071029; --accent:#a78bfa; --muted:#94a3b8; --text:#e6eef8 }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:linear-gradient(180deg,#041026 0%, #081428 100%); color:var(--text); line-height:1.6}
+    header{padding:28px 20px; text-align:center}
+    .container{max-width:980px;margin:0 auto;padding:0 18px}
+    h1{margin:.2rem 0;font-size:2rem;letter-spacing:.6px}
+    nav{display:flex;gap:12px;justify-content:center;margin-top:8px}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:8px}
+    nav a:hover{background:rgba(167,139,250,0.08);color:var(--text)}
+    main{display:grid;grid-template-columns:1fr;gap:18px;padding-bottom:48px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .row{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .bio p{margin:.6rem 0}
+    ul{margin:.6rem 0 0 1.2rem}
+    .disc-list{display:grid;gap:8px}
+    .album{padding:10px;border-radius:8px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.03)}
+    footer{padding:18px;text-align:center;color:var(--muted);font-size:.9rem}
+    @media (max-width:880px){.row{grid-template-columns:1fr}nav{flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Lana Del Rey</h1>
+      <p style="color:var(--muted);margin:6px 0">Seja bem vindo(a), este é um site onde voce vai encontrar informações sobre a Lana Del Rey</p>
+      <nav>
+        <a href="#biografia">Biografia</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#discografia">Discografia</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" id="biografia">
+      <h2>Biografia</h2>
+      <div class="bio">
+        <p><strong>Lana Del Rey</strong> (nome de nascimento Elizabeth Woolridge Grant, nascida em 21 de junho de 1985) é uma cantora, compositora e produtora musical americana conhecida por sua estética cinematográfica, vocal melancólico e letras que exploram temas como amor, fama e nostalgia.</p>
+        <p>Ela iniciou a carreira artística sob nomes diferentes e alcançou reconhecimento mundial com o lançamento do álbum Born to Die (2012). Desde então, Lana construiu uma imagem pública marcada por sonoridades retrô, arranjos orquestrais e uma forte personalidade artística.</p>
+        <p>Artista prolífica, Lana transita entre o pop alternativo, dream pop e indie, misturando referências clássicas do cinema e da cultura americana em sua estética visual e sonora.</p>
+      </div>
+    </section>
+
+    <div class="row">
+      <aside class="card" id="curiosidades">
+        <h2>Curiosidades</h2>
+        <ul>
+          <li>O nome artístico reflete a estética vintage e cinematográfica que ela costuma evocar.</li>
+          <li>É conhecida por mesclar referências à cultura americana clássica com temas contemporâneos.</li>
+          <li>Além de cantora, Lana escreve parte das suas músicas e participa do processo criativo dos arranjos.</li>
+          <li>Muitas de suas canções possuem títulos longos ou versos repetitivos que criam atmosferas nostálgicas.</li>
+          <li>Seu trabalho frequentemente aparece em trilhas sonoras e campanhas publicitárias devido ao tom cinematográfico.</li>
+        </ul>
+      </aside>
+
+      <section class="card" id="discografia">
+        <h2>Discografia (seleção de álbuns de estúdio)</h2>
+        <div class="disc-list">
+          <div class="album"><strong>Born to Die</strong> — 2012</div>
+          <div class="album"><strong>Ultraviolence</strong> — 2014</div>
+          <div class="album"><strong>Honeymoon</strong> — 2015</div>
+          <div class="album"><strong>Lust for Life</strong> — 2017</div>
+          <div class="album"><strong>Norman Fucking Rockwell!</strong> — 2019</div>
+          <div class="album"><strong>Chemtrails over the Country Club</strong> — 2021</div>
+          <div class="album"><strong>Blue Banisters</strong> — 2021</div>
+        </div>
+        <p style="color:var(--muted);font-size:.95rem;margin-top:12px">Esta é uma seleção dos álbuns mais conhecidos. Se quiser, eu atualizo a discografia com singles, EPs ou lançamentos mais recentes.</p>
+      </section>
+    </div>
+
+  </main>
+
+
+</body>
+</html>
