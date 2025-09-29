@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lana Del Rey — Site </title>
+  <style>
+    :root{ --bg:#0f1724; --card:#071029; --accent:#a78bfa; --muted:#94a3b8; --text:#e6eef8 }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:linear-gradient(180deg,#041026 0%, #081428 100%); color:var(--text); line-height:1.6}
+    header{padding:28px 20px; text-align:center}
+    .container{max-width:980px;margin:0 auto;padding:0 18px}
+    h1{margin:.2rem 0;font-size:2rem;letter-spacing:.6px}
+    nav{display:flex;gap:12px;justify-content:center;margin-top:8px}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 12px;border-radius:8px}
+    nav a:hover{background:rgba(167,139,250,0.08);color:var(--text)}
+    main{display:grid;grid-template-columns:1fr;gap:18px;padding-bottom:48px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .row{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .bio p{margin:.6rem 0}
+    ul{margin:.6rem 0 0 1.2rem}
+    .disc-list{display:grid;gap:8px}
+    .album{padding:10px;border-radius:8px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.03)}
+    footer{padding:18px;text-align:center;color:var(--muted);font-size:.9rem}
+    @media (max-width:880px){.row{grid-template-columns:1fr}nav{flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Lana Del Rey</h1>
+      <p style="color:var(--muted);margin:6px 0">Seja bem vindo(a), este é um site onde voce vai encontrar algumas informações sobre a Lana Del Rey</p>
+      <nav>
+        <a href="#biografia">Biografia</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#discografia">Discografia</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container">
+    <section class="card" id="biografia">
+      <h2>Biografia</h2>
+      <div class="bio">
+        <p><strong>Elizabeth Woolridge Grant</strong> mais conhecida como Lana Del Rey, nascida em 21 de junho de 1985, em Nova York. É uma cantora, compositora e produtora musical americana conhecida por sua estética cinematográfica, vocal melancólico e letras que exploram temas como amor, fama e nostalgia.</p>
+        <p>Desde cedo, interessou-se pela música e aprendeu a cantar em corais da igreja. Na adolescência, começou a escrever poesias e canções, o que mais tarde influenciaria fortemente no seu futuro artístico.</p>
+        <p>O reconhecimento mundial veio em 2011, quando publicou na internet o clipe de Vídeo Games, que viralizou e atraiu atenção pela estética retrô e pela voz melancólica. No ano seguinte, lançou o álbum Born to Die (2012), que se tornou um grande fenômeno, trazendo músicas que se destacaram como Summertime Sadness, Blue Jeans e a própria Born to Die. Com o decorrer do tempo, mais músicas ganharam visibilidade.</p>
+        <p>Artista prolífica, Lana transita entre o pop alternativo, dream pop e indie, misturando referências clássicas do cinema e da cultura americana na sua estética visual e sonora.</p>
+        <p>Antes da fama, Lana se apresentou em bares e pequenos clubes sob diferentes nomes artísticos, como Lizzy Grant. Em 2010, lançou de forma independente o álbum Lana Del Ray A.K.A. Lizzy Grant, que passou despercebido.</p>
+      </div>
+    </section>
+
+
+    <div class="row">
+      <aside class="card" id="curiosidades">
+        <h2>Curiosidades</h2>
+        <ul>
+          <li>O nome artístico Lana Del Rey foi inspirado em uma combinação da atriz Lana Turner e do carro Ford Del Rey.</li>
+          <li>Antes de ficar famosa, ela usava outros nomes artísticos, como Lizzy Grant, May Jailer, Sparkle Jump Rope Queen e Lana Del Mar</li>
+          <li>Além de cantora, Lana escreve parte das suas músicas e participa do processo criativo dos arranjos.</li>
+          <li>Muitas de suas canções possuem títulos longos ou versos repetitivns que criam atmosferas nostálgicas.</li>
+          <li>Lana já confirmou ser muito inspirada por artistas como Elvis Presley, Nirvana e Bob Dylan.</li>
+          <li>Na sua adolescência, lana teve problemas com alcoolismo, chegando até mesmo ser internada pelos seus pais.          </li>
+          <li>Ela estudou filosofia na Fordham University, em Nova York.</li>
+          <li>Lana já trabalhou como voluntária em projetos de reabilitação para dependentes químicos.</li>
+          <li>Além de cantar, ela também escreve poesia — lançou um livro chamado “Violet Bent Backwards Over the Grass” (2020).</li>
+          <li>Suas músicas aparecem com frequência em trilhas sonoras de filmes e séries (como O Grande Gatsby e Euphoria). </li>
+          <li>Lana Del Rey cantou no filme da Disney Malévola (2014), um filme que conta a história da "A Bela Adormecida" a partir do ponto de vista da vilã Malévola. Ela regravou a canção clássica da Disney, "Once Upon a Dream". A participação dela foi sugerida pela própria protagonista do filme, Angelina Jolie.</li>
+        </ul>
+      </aside>
+
+      <section class="card" id="discografia">
+        <h2>Albuns </h2>
+        <div class="disc-list">
+          <div class="album"><strong>Born to Die</strong> — 2012</div>
+          <div class="album"><strong>Ultraviolence</strong> — 2014</div>
+          <div class="album"><strong>Honeymoon</strong> — 2015</div>
+          <div class="album"><strong>Lust for Life</strong> — 2017</div>
+          <div class="album"><strong>Norman Fucking Rockwell!</strong> — 2019</div>
+          <div class="album"><strong>Chemtrails over the Country Club</strong> — 2021</div>
+          <div class="album"><strong>Blue Banisters</strong> — 2021</div>
+          <div class="album"><strong>Did you know that there's a tunnel under Ocean Blvd</strong> - 2023</div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+</body>
+</html>
